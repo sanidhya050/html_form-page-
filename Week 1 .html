@@ -1,0 +1,101 @@
+<!Doctype html>
+<head>
+    <title> Problem Statement 1 </title>
+    <style>
+        header,footer{
+
+            height: 50px;
+            background-color:darkblue;
+            text-align:center;
+
+        }
+    </style>
+</head>
+<body>
+    <header><h1>HTML CLASSROOM PAGE</h1></header>
+    <h1>1.Form</h1>
+    <p>The attributes are well aligned to make sure that the form is well organised.</p>
+    <form action="">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="Email" name="Email" required> </td>
+            </tr>
+
+            <tr>
+                <td>Phone number</td>
+                <td><input type="number" name="number" min="6000000000"  max="9999999999" required></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h4> Question: choose the most appropriate option :</h4>
+                </td>
+                <td>
+                    <input type ="radio" id="a1" name="option" value="India is a state">
+                    <label for="a1">India is a state </label><br>
+
+                    <input type ="radio" id="a2" name="option" value="India is a Country">
+                    <label for="a2">India is a Country</label><br>
+
+                    <input type ="radio" id="a3" name="option" value="India is a democratic Country">
+                    <label for="a3">India is a democratic Country  </label>
+                </td>
+            </tr>
+                <td>
+                    <label for="Cars">Choose a company:</label>
+                </td>
+                <td>
+                       <select name="company">
+                        <option value="select">Select a company</option>
+                        <option value="Benz">Benz</option>
+                        <option value="Hyundai">Hyundai</option>
+                        <option value="Rolls Royce">Rolls Royce</option>
+                        <option value="Bently">Bently</option>
+                       </select>
+                     </td>
+                    </tr>
+
+                    <td></td>
+               <button>Submit</button>
+            <tr>
+        </table>
+    </form>
+
+       <hr>
+       <h1>2. Use of IFrames</h1>
+       <p>IFrames are used to open other web pages in the current web pages.</p>
+       <P>Some websites are not let you see thier link in other web pages.Hence,you will get refused to to connect message when you hover on the Iframe  </P>
+           
+       <iframe src=https://www.google.com></iframe><hr>
+       <p>Your Html pages can be seen as shown below </p>
+       <iframe src="Week 1 .html" frameborder="2" height="400" width="500"></iframe><br>
+       <iframe src="https://www.youtube.com/watch?v=mRCXh__pexQ" frameborder="1"></iframe><br>
+
+       <hr>
+       <h1>3. Video in Web Page </h1>
+       <p>To plasy video files we need to have controls in the video tag as shown in the next video </p>
+       <video width="320" height="240">
+        <source src="https://mobstatus.com/best-motivational-whatsapp-status-video" type="video/mp4">
+       </video><hr>
+
+       <p> We have controls in this video. this video doesnt contain audio. hence, we cannot hear the video sound.</p>
+       <video width="320" height="=240">
+        <source src="https://www.pexels.com/video/freighter-on-water-13898678" type="video/mp4">
+       </video><hr>
+
+       <p> We can also play videos in loop by specifying loop in video tag.Feel free to make changes  </p>
+       <video width="50%" controls muted autoplay loop>
+        <source src="https://www.pexels.com/video/cold-snow-light-sea-15355524" type="video/mp4">
+       </video><hr>
+
+       <footer><h1>No @Copyright. Anyone can use this file </h1></footer>
+
+</body>
+</html>
+
